@@ -1,0 +1,195 @@
+	body{
+		font:		14px/24px "ff-tisa-web-pro-1","ff-tisa-web-pro-2"; 
+		padding:	80px 0 0 0;
+		margin:	 	0 0 50px 0;
+	  	color:		#2B2C30;
+		background:	#f2ece9;
+		xcolor:		#3299BB;
+	}
+
+/*	NAV / TOP BAR ----------------------------------------------------------------------------  */	
+	#logo{
+		position:	fixed;
+		top:		0px;
+		left:		20px;
+		z-index:	1;
+		margin:	 	-8px 0 0 0;
+	}
+	
+	#topBar {
+		height:		40px;
+		width:		100%;
+		position:	fixed;
+		top:		0;
+		padding:	8px 0 0px 85px;
+		overflow:	hidden;
+		background:	#E76653;
+	}
+	
+	#topBar li {
+		display:	inline;
+	}
+	
+	#links {
+		position:	fixed;
+		right:		10px;
+		top:		10px;
+		display:	inline;
+		color:#ffffff;
+		margin-right:20px;
+	}
+	
+	#links li {
+		
+
+	}
+	
+	#links li a{
+      color:#ffffff;
+	  	xpadding:1px 5px;
+	}
+	
+/*	POSTS ----------------------------------------------------------------------------  */
+	#posts {
+		padding-left:80px;
+	}
+	
+	#posts li {
+		margin-top:25px;
+		margin-bottom:100px;
+		max-width:720px;
+		min-width:320px;
+	}
+	
+	.item {
+		width:100%;
+	}
+	
+	.source {
+		font:12px/14px "ff-tisa-web-pro-1","ff-tisa-web-pro-2"; 
+		margin-top:2px;
+		xcolor:#c5c5c5;
+		font-style:italic;
+		padding-left:10px;
+		padding-bottom:4px;
+		float:left;
+		margin-right:25px;
+	}
+	
+	a {
+		text-decoration:none;
+  		color:#9ea2b0;
+	  	padding:1px 5px 1px 5px;
+	}
+	
+	a:hover {
+		xtext-decoration:underline;
+  		color:#000000;
+	}
+	
+	pre {
+		
+	                   /* specify width  */
+		white-space: pre-wrap;                 /* CSS3 browsers  */
+		white-space: -moz-pre-wrap !important; /* 1999+ Mozilla  */
+		white-space: -pre-wrap;                /* Opera 4 thru 6 */
+		white-space: -o-pre-wrap;              /* Opera 7 and up */
+		word-wrap: break-word;                 /* IE 5.5+ and up */
+
+		padding-left:0px;
+		margin-bottom:12px;
+		margin-left:5px;
+		margin-right:35px;
+    	border-top:3px #E76653 solid;
+		padding: 30px 45px 30px 45px;
+	  	background-color:#ffffff;
+	}
+	
+	img {
+		position:relative;
+		top:4px;
+		left:-4px;
+		z-index:-1;
+	}
+	
+
+
+	
+	#resultCount {
+		margin-left:15px;
+		font:14px/12px "ff-tisa-web-pro-1","ff-tisa-web-pro-2"; 
+		color:#ffffff;
+		font-style:italic;
+	}
+	
+	.textInput
+	{
+		font:16px/16px "ff-tisa-web-pro-1","ff-tisa-web-pro-2"; 
+		border: 0px solid #cccccc;
+		width:250px;
+		height:30px;
+		background: #ffffff;
+		color: #000;
+		xposition:fixed;
+		font-style:italic;
+		top:15px;
+		padding:0px 0px 0px 6px;
+	}
+	
+	::-webkit-input-placeholder {  
+		font:16px/16px "ff-tisa-web-pro-1","ff-tisa-web-pro-2"; 
+		color: #999999;
+		font-style:italic;
+		padding:5px 0px 5px 3px;
+	}
+	 :-moz-placeholder { 
+		font:16px/16px "ff-tisa-web-pro-1","ff-tisa-web-pro-2"; 
+		color: #999999; 
+		font-style:italic;
+		padding:5px 0px 5px 3px;
+	}
+	
+	.highlight {
+	  background-color:#b8bccc;
+	}
+	
+/*	REGISTER ----------------------------------------------------------------------------  */	
+	#registrationBox {
+		margin-top:100px;
+		float:left;
+	}
+	
+	#registrationBox  .textInput
+	{
+		font:32px/32px "ff-tisa-web-pro-1","ff-tisa-web-pro-2"; 
+		border: 0px solid #cccccc;
+		width:350px;
+		height:60px;
+		background: #ffffff;
+		color: #000;
+		font-style:italic;
+		display:block;
+		margin-bottom:30px;
+		
+	}
+	
+	#signInBox {
+		margin-top:100px;
+	}
+	
+	#signInBox .textInput
+	{
+		font:32px/32px "ff-tisa-web-pro-1","ff-tisa-web-pro-2"; 
+		border: 0px solid #cccccc;
+		width:350px;
+		height:60px;
+		background: #ffffff;
+		color: #000;
+		font-style:italic;
+		display:block;
+		margin-bottom:30px;
+		
+	}
+	
+
+	

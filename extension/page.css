@@ -1,0 +1,34 @@
+/*
+body {
+  background: #ffffff url('http://labs.visualgratis/ReadThis/extension/paper.png') repeat;
+}
+*/
+
+.popOver {
+  position:fixed;
+  top:-51px;
+  width:100%;
+  height:50px;
+  background:#ffffff;
+  border: 1px #cccccc solid;
+  text-align:center;
+  z-index:100;
+}
+
+.popOver p {
+  font-size:18px;
+  color:#1398ff;
+  padding-top:8px;
+  text-align:center;
+}
+
+.signIn {
+  position:fixed;
+  top:-101px;
+  width:100%;
+  height:100px;
+  background:#ffffff;
+  border: 1px #cccccc solid;
+  text-align:center;
+  z-index:1000;
+}
